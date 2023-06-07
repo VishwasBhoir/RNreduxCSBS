@@ -13,6 +13,7 @@ export default Header;
 
 const styles = StyleSheet.create({
   container: {
+    marginTop:50,
     height: 80,
     backgroundColor: "#30A2FF",
     justifyContent: "center",
