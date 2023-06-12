@@ -35,7 +35,7 @@ export default function App() {
   ];
 
   return (
-    <View>
+    <View style={styles.container}>
       <Header />
       <Product products={products} />
     </View>
@@ -44,7 +44,8 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 35,
-    margin: 5,
+    // marginTop: 35,
+    // margin: 5,
+    flex: 1,
   },
 });
